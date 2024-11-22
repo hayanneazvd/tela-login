@@ -1,0 +1,247 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login{
+    width: 412px;
+    height: 917px;
+    border: solid 1px #BE0D00 ;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #BE0D00;
+}
+
+.btn-facebook {
+    width: 203px;
+    height: 35px;
+    border: solid 1px #191970;
+    background-color: #191970;
+    border-radius: 4px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-bottom: 25px;
+    margin-top: 15px;
+}
+
+.btn-facebook p{
+    font-family:"Inter", sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    color:white;
+}
+
+.btn-facebook img {
+    width: 25px;
+    height: 25px;
+}
+
+.email input{
+    width: 203px;
+    height: 35px;
+    border: 0;
+    border-radius: 6px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #FFFFFF;
+    margin-top: 10px;
+    margin-bottom: 25px;
+}
+
+.senha input{
+    width: 203px;
+    height: 35px;
+    border: 0;
+    border-radius: 6px;
+    display: flex;
+    justify-content:space-evenly ;
+    align-items: center;
+    background-color: #FFFFFF ;
+    margin-bottom:25px;
+}
+
+.btn-entrar{
+width: 203px;
+height: 35px;
+border:0;
+border-radius: 6px;
+display: flex;
+justify-content:space-evenly ;
+align-items: center;
+background-color: #E68700 ;
+color: #FFFFFF ;
+margin-bottom: 10px;
+}
+
+.email input::placeholder{
+    top: 8px;
+    left: 8px;
+    position: absolute;
+    font-family: "Inter", sans-serif;
+    letter-spacing: 2px;
+}
+
+.senha input::placeholder{
+    top: 8px;
+    left: 8px;
+    position: absolute;
+    font-family: "Inter", sans-serif;
+    letter-spacing: 2px;
+}
+
+.btn-entrar p{
+    font-family: "Inter", sans-serif;
+    font-weight: 600;
+    font-size: 18pt;
+}
+
+.criar {
+    margin-top: 10px;
+    color: #ffffff;
+}
+
+.btn-entrar2{
+    width: 203px;
+    height: 35px;
+    border:0;
+    border-radius: 6px;
+    display: flex;
+    justify-content:space-evenly ;
+    align-items: center;
+    background-color: #E68700 ;
+    color: #FFFFFF ;
+    margin-bottom: 10px;
+    }
+
+    .btn-entrar2 p{
+        font-family: "Inter", sans-serif;
+        font-weight: 600;
+        font-size: 18pt;
+    }
+
+    .email2 input{
+        width: 203px;
+        height: 35px;
+        border: 0;
+        border-radius: 6px;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        background-color: #FFFFFF;
+        margin-top: 10px;
+        margin-bottom: 25px;
+    }
+
+    .email2 input::placeholder{
+        top: 8px;
+        left: 8px;
+        position: absolute;
+        font-family: "Inter", sans-serif;
+        letter-spacing: 2px;
+    }
+
+    .senha2 input{
+        width: 203px;
+        height: 35px;
+        border: 0;
+        border-radius: 6px;
+        display: flex;
+        justify-content:space-evenly ;
+        align-items: center;
+        background-color: #FFFFFF ;
+        margin-bottom:25px;
+    }
+    
+    .senha2 input::placeholder{
+        top: 8px;
+        left: 8px;
+        position: absolute;
+        font-family: "Inter", sans-serif;
+        letter-spacing: 2px;
+    }
+    
+    .senha3 input{
+        width: 203px;
+        height: 35px;
+        border: 0;
+        border-radius: 6px;
+        display: flex;
+        justify-content:space-evenly ;
+        align-items: center;
+        background-color: #FFFFFF ;
+        margin-bottom:25px;
+    }
+
+    .senha3 input::placeholder{
+        top: 8px;
+        left: 8px;
+        position: absolute;
+        font-family: "Inter", sans-serif;
+        letter-spacing: 2px;
+    }
+    
+    .usuario input{
+        width: 203px;
+        height: 35px;
+        border: 0;
+        border-radius: 6px;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        background-color:#FFFFFF;
+        margin-top: 10px;
+        margin-bottom: 25px;
+    }
+    
+    .usuario input::placeholder{
+        top: 8px;
+        left: 3px;
+        position: absolute;
+        font-family: "Inter", sans-serif;
+        letter-spacing: 2px;
+    }
+
+    .cadastro p{
+        color: #ffffff;
+        font-family: "Instrument Sans", sans-serif;
+        font-weight: 600px;
+        left: 8px;
+        margin-bottom: 40px;
+        font-size: 50px;
+    }
+
+    .container1{
+        width: 100%;
+        height: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .login2{
+        width: 412px;
+        height: 917px;
+        border: solid 1px #000000;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: #BE0D00;
+        background-image: url('img/pizzariacad.png');
+    }
+    
+
+    
+    
